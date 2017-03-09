@@ -95,7 +95,7 @@ int main(int argc, char *argv[])
 {
     if (argc==1)
     {
-        fputs("Error\n",stderr);
+        fputs("Not enough argument\n",stderr);
         exit(1);
     }
 
