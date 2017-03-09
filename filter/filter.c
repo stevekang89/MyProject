@@ -95,7 +95,7 @@ int main(int argc, char *argv[])
 {
     if (argc==1)
     {
-        fputs("Not enough argument\n",stderr);
+        fputs("Not enough argument: fir_exe input_data coeff_file output_data\n",stderr);
         exit(1);
     }
 
