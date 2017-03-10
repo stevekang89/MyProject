@@ -97,7 +97,7 @@ int main(int argc, char *argv[])
     {
         fputs("Not enough argument: fir_exe input_data coeff_file output_data: warning be more accurate\n",stderr);
         fputs("looks ok\n",stderr);
-        fputs("hey need to be more careful");
+        fputs("hey need to be more careful",stderr);
         exit(0);
     }
 
